@@ -1,0 +1,29 @@
+{
+  "name": "oauth-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dylan Lafont",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsc && node src/index.ts",
+    "lint": "npx eslint . --ext .ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jose": "^5.9.6"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.13.1",
+    "@types/express": "^5.0.0",
+    "eslint": "^9.19.0",
+    "typescript-eslint": "^8.23.0",
+    "@eslint/js": "^9.19.0",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "globals": "^15.14.0"
+  }
+}
